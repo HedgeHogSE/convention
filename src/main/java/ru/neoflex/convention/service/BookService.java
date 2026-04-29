@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book;
+package ru.neoflex.convention.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,6 +8,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+
+import ru.neoflex.convention.exception.BookNotFoundException;
+import ru.neoflex.convention.model.Book;
+import ru.neoflex.convention.repository.BookRepository;
 
 @Service
 public class BookService {

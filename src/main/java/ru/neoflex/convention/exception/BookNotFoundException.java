@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book;
+package ru.neoflex.convention.exception;
 
 public class BookNotFoundException extends RuntimeException {
 

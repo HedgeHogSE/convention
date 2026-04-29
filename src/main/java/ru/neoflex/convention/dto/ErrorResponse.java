@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book.api;
+package ru.neoflex.convention.dto;
 
 public class ErrorResponse {
 

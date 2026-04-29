@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book.api;
+package ru.neoflex.convention.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ru.neoflex.convention.book.Book;
-import ru.neoflex.convention.book.BookService;
+import ru.neoflex.convention.model.Book;
+import ru.neoflex.convention.service.BookService;
 
 @RestController
 @RequestMapping("/books")

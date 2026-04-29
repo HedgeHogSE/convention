@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book.api;
+package ru.neoflex.convention.controller;
 
 import static org.hamcrest.Matchers.is;
 import static org.mockito.ArgumentMatchers.anyLong;
@@ -17,7 +17,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import ru.neoflex.convention.book.BookService;
+import ru.neoflex.convention.service.BookService;
 
 @WebMvcTest(controllers = HeavyTaskController.class)
 @Import(GlobalExceptionHandler.class)

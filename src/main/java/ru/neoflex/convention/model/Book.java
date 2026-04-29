@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book;
+package ru.neoflex.convention.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

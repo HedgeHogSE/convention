@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book.api;
+package ru.neoflex.convention.controller;
 
 import static org.hamcrest.Matchers.is;
 import static org.mockito.ArgumentMatchers.any;
@@ -17,9 +17,9 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import ru.neoflex.convention.book.Book;
-import ru.neoflex.convention.book.BookNotFoundException;
-import ru.neoflex.convention.book.BookService;
+import ru.neoflex.convention.exception.BookNotFoundException;
+import ru.neoflex.convention.model.Book;
+import ru.neoflex.convention.service.BookService;
 
 import org.springframework.boot.test.mock.mockito.MockBean;
 

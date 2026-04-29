@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book;
+package ru.neoflex.convention.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -18,9 +18,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import ru.neoflex.convention.book.Book;
-import ru.neoflex.convention.book.BookNotFoundException;
-import ru.neoflex.convention.book.BookRepository;
+import ru.neoflex.convention.exception.BookNotFoundException;
+import ru.neoflex.convention.model.Book;
+import ru.neoflex.convention.repository.BookRepository;
 
 @ExtendWith(MockitoExtension.class)
 class BookServiceTest {

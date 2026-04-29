@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book.api;
+package ru.neoflex.convention.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import ru.neoflex.convention.book.BookService;
+import ru.neoflex.convention.dto.HeavyTaskResponse;
+import ru.neoflex.convention.service.BookService;
 
 @RestController
 @RequestMapping

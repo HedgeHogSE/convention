@@ -1,4 +1,4 @@
-package ru.neoflex.convention.book.api;
+package ru.neoflex.convention.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,7 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import ru.neoflex.convention.book.BookNotFoundException;
+import ru.neoflex.convention.dto.ErrorResponse;
+import ru.neoflex.convention.exception.BookNotFoundException;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
